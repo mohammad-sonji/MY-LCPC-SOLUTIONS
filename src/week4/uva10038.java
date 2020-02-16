@@ -22,7 +22,8 @@ public class uva10038 {
 
             boolean jolly = true;
             for (int i = 0; i < n - 1; i++) {
-                if (Math.abs(arr[i] - arr[i + 1]) >= n || Math.abs(arr[i] - arr[i + 1]) < 1 || !contains(Math.abs(arr[i] - arr[i + 1]))) {
+                int abs = Math.abs(arr[i] - arr[i + 1]);
+                if (abs >= n || abs < 1 || !contains(abs)) {
                     jolly = false;
                     break;
                 }
