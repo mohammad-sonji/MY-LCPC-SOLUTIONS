@@ -10,7 +10,7 @@ public class uva10038 {
 
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        while(s.hasNext()) {
+        while (s.hasNext()) {
             count = 0;
             n = s.nextInt();
             arr = new int[n];
@@ -33,11 +33,11 @@ public class uva10038 {
     }
 
     public static boolean contains(int x) {
-            if(bool[x] != 0){
-                bool[x] = 0;
-                count++;
-                return true;
-            }
+        if (bool[x] != 0) {
+            bool[x] = 0;
+            count++;
+            return true;
+        }
         return false;
     }
 }
