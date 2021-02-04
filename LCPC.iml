@@ -9,6 +9,8 @@
       <sourceFolder url="file://$MODULE_DIR$/src/ad hoc" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/week4" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Linear DS" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/LCPC 2021 training" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/under construction" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
