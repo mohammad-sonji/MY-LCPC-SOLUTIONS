@@ -17,10 +17,9 @@ public class FlippingGame {
         if (j >= i && i < arr.length && j < arr.length) {
             if (dp[i][j] == 0) {
                 int count = 0;
-                for (int k = 0; k < arr.length; k++) {
+                for (int k = 0; k < arr.length; k++)
                     if (k >= i && k <= j) count += 1 - arr[k];
                     else count += arr[k];
-                }
                 return dp[i][j] = Math.max(count, Math.max(dp(arr, i, j + 1), dp(arr, i + 1, i + 1)));
             } else return dp[i][j];
         } else return 0;
